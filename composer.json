@@ -1,0 +1,22 @@
+{
+    "name": "esh/freedom-test",
+    "require": {
+        "phpunit/phpunit": "^5.2",
+        "guzzlehttp/guzzle": "^6.1",
+        "vlucas/phpdotenv": "~1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "tests/"
+        ],
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Esh",
+            "email": "romeroeshleebien@gmail.com"
+        }
+    ]
+}
