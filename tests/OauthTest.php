@@ -19,6 +19,7 @@ class OauthTest extends TestCase
                 'base_uri' => $this->base_url,
                 'cookies' => $this->cookie_jar,
                 'allow_redirects' => true,
+                'verify' => false,
             ]
         );
 

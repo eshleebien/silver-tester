@@ -10,8 +10,12 @@ function getFormToken($content)
 
 function getCodeFromUri($uri)
 {
-    preg_match('/(?!=)([A-Z0-9])\w+/', $uri, $code);
+    preg_match('/(?!.*code=)([A-Z0-9])\w+/', $uri, $code);
 
     return $code[0];
+}
 
+function dd($text = null) {
+    var_dump($text);
+    die();
 }
